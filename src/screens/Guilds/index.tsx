@@ -21,7 +21,7 @@ export function Guilds({ handleGuildSelect }: Props) {
     },
     {
       id: '2',
-      name: 'Lendários',
+      name: 'Games na Vida',
       icon: "image.png",
       owner: true
     },
