@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import { FlatList, View, Text } from "react-native";
 
-import { Profile } from "../../components/Profile";
-import { ButtonAdd } from "../../components/ButtonAdd";
-import { ListHeader } from "../../components/ListHeader";
-import { Appointment } from "../../components/Appointment";
-import { ListDivider } from "../../components/ListDivider";
 import { CategorySelect } from "../../components/CategorySelect";
+import { ListDivider } from "../../components/ListDivider";
+import { Appointment } from "../../components/Appointment";
+import { ListHeader } from "../../components/ListHeader";
+import { Background } from "../../components/Background";
+import { ButtonAdd } from "../../components/ButtonAdd";
+import { Profile } from "../../components/Profile";
 
 import { styles } from "./styles";
 
@@ -45,7 +46,7 @@ export function Home() {
   }
 
   return (
-    <View>
+    <Background>
       <View style={styles.header}>
         <Profile />
         <ButtonAdd />
@@ -73,6 +74,6 @@ export function Home() {
           showsVerticalScrollIndicator={false}
         />
       </View>
-    </View>
+    </Background>
   );
 }
