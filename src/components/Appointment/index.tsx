@@ -2,20 +2,14 @@ import React from "react";
 import { RectButton, RectButtonProps } from "react-native-gesture-handler";
 import { View, Text } from "react-native";
 
-import { styles } from "./styles";
 import { theme } from "../../global/styles/theme";
-import PlayerSvg from "../../assets/player.svg";
-import CalendarSvg from "../../assets/calendar.svg";
-
 import { GuildIcon } from "../GuildIcon";
-import { categories } from "../../utils/categories";
+import { GuildProps } from "../Guild";
 
-export type GuildProps = {
-  id: string;
-  name: string;
-  icon: null;
-  owner: boolean;
-}
+import { categories } from "../../utils/categories";
+import CalendarSvg from "../../assets/calendar.svg";
+import PlayerSvg from "../../assets/player.svg";
+import { styles } from "./styles";
 
 export type AppointmentProps = {
   id: string;
