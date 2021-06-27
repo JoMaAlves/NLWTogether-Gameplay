@@ -25,6 +25,42 @@ export function Guilds({ handleGuildSelect }: Props) {
       icon: "image.png",
       owner: true
     },
+    {
+      id: '3',
+      name: 'Games na Vida',
+      icon: "image.png",
+      owner: true
+    },
+    {
+      id: '4',
+      name: 'Games na Vida',
+      icon: "image.png",
+      owner: true
+    },
+    {
+      id: '5',
+      name: 'Games na Vida',
+      icon: "image.png",
+      owner: true
+    },
+    {
+      id: '6',
+      name: 'Games na Vida',
+      icon: "image.png",
+      owner: true
+    },
+    {
+      id: '7',
+      name: 'Games na Vida',
+      icon: "image.png",
+      owner: true
+    },
+    {
+      id: '8',
+      name: 'Games na Vida',
+      icon: "image.png",
+      owner: true
+    },
   ];
 
   return (
@@ -40,6 +76,7 @@ export function Guilds({ handleGuildSelect }: Props) {
         )}
         showsVerticalScrollIndicator={false}
         ItemSeparatorComponent={() => <ListDivider />}
+        contentContainerStyle={{ paddingBottom: 69 }}
         style={styles.guilds}
       />
     </View>
