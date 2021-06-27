@@ -76,7 +76,8 @@ export function Guilds({ handleGuildSelect }: Props) {
         )}
         showsVerticalScrollIndicator={false}
         ItemSeparatorComponent={() => <ListDivider />}
-        contentContainerStyle={{ paddingBottom: 69 }}
+        ListHeaderComponent={() => <ListDivider />}
+        contentContainerStyle={{ paddingBottom: 68, paddingTop: 68 }}
         style={styles.guilds}
       />
     </View>
