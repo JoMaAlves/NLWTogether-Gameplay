@@ -8,5 +8,5 @@ export function Routes() {
     <NavigationContainer>
       <AuthRoutes />
     </NavigationContainer>
-  )
+  );
 }
